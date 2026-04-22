@@ -61,7 +61,8 @@
 		},
 		{
 			"Name": "WorldBLD",
-			"Enabled": true
+			"Enabled": true,
+			"PlatformAllowList": [ "Win64" ]
 		}
 	]
 }
