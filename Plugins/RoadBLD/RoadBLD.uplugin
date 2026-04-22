@@ -1,0 +1,79 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.3.8",
+	"FriendlyName": "RoadBLD",
+	"Description": "Draw detailed road networks in your level.",
+	"Category": "Editor",
+	"CreatedBy": "WorldBLD LLC",
+	"CreatedByURL": "https://worldbld.com",
+	"DocsURL": "https://worldbld.notion.site/RoadBLD-Documentation-1f51ba824a3080019dd3e047961c6b03?pvs=25",
+	"MarketplaceURL": "",
+	"SupportURL": "https://worldbld.com",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "RoadBLDRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RoadBLDEditorToolkit",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ClothoidsModule",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AssetManagerEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "Landmass",
+			"Enabled": true
+		},
+		{
+			"Name": "LandscapePatch",
+			"Enabled": true
+		},
+		{
+			"Name": "PCG",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGGeometryScriptInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "PlatformCrypto",
+			"Enabled": true
+		},
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "Text3D",
+			"Enabled": true
+		},
+		{
+			"Name": "WorldBLD",
+			"Enabled": true
+		}
+	]
+}

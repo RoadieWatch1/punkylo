@@ -1,0 +1,80 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.2.6",
+	"FriendlyName": "CityBLD",
+	"Description": "Powerful tools for rapidly generating detailed buildings and other urban elements.",
+	"Category": "Editor",
+	"CreatedBy": "WorldBLD LLC",
+	"CreatedByURL": "https://worldbld.com",
+	"DocsURL": "https://worldbld.gitbook.io/worldbld-docs/citybld",
+	"MarketplaceURL": "",
+	"SupportURL": "https://worldbld.com",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "CityBLDRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CityBLDEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AssetManagerEditor",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "Landmass",
+			"Enabled": true
+		},
+		{
+			"Name": "LandscapePatch",
+			"Enabled": true
+		},
+		{
+			"Name": "PCG",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGGeometryScriptInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "PlatformCrypto",
+			"Enabled": true
+		},
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "Text3D",
+			"Enabled": true
+		},
+		{
+			"Name": "WorldBLD",
+			"Enabled": true
+		}
+	]
+}
